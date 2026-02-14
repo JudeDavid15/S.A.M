@@ -3,7 +3,9 @@ import json
 import urllib.request
 import pyttsx3 as ts
 engine=ts.init()
-apikey = "507032c4a9fc44c406390b9f46e8e8b6"
+import os
+apikey = os.getenv("GNEWS_API_KEY")
+
 url = f"https://gnews.io/api/v4/search?q=example&lang=en&max=10&apikey={apikey}"
 
 with urllib.request.urlopen(url) as response:

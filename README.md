@@ -10,7 +10,6 @@ This project focuses on building a scalable command-loop architecture rather tha
 
 - 🎤 Speech recognition (voice input)
 - 🔊 Text-to-speech responses
-- 🌦 Weather information retrieval
 - 📰 News fetching
 - 📂 File search and application opening
 - 🧠 Modular multi-file architecture
